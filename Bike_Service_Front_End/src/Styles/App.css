@@ -1,0 +1,176 @@
+/* styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+  background-image: url('./BG_IMG.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh; 
+}
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h2 {
+    color:white;
+    text-align: center;
+
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #007bff;
+    padding: 10px;
+  }
+  
+  nav a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    background-color: #007bff;
+    border: 1px solid black;
+    border-radius: 5px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+  }
+  
+  nav a:hover {
+    background-color: #0056b3;
+  }
+  
+  .booking-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .booking-history {
+    margin-top: 20px;
+  }
+  
+  .booking-card {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-card h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  .booking-card p {
+    color: #555;
+    margin-bottom: 5px;
+  }
+  
+  .admin-login-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  .admin-login-form h3 {
+    color: #007bff;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .admin-login-form .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .admin-login-form .label {
+    font-weight: bold;
+  }
+  
+  .admin-login-form .input-field {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .admin-login-form .btn {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .admin-login-form .btn:hover {
+    background-color: #0056b3;
+  }
+  footer {
+    background-color: #007bff;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  .social-links {
+    margin: 10px 0;
+  }
+  
+  .social-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  

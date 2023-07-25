@@ -1,0 +1,52 @@
+/* BookingHistory.css */
+
+.booking-history-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-history-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .booking-history-container table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .booking-history-container th,
+  .booking-history-container td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .booking-history-container th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .booking-history-container tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .booking-history-container button {
+    background-color: #dc3545;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .booking-history-container button:hover {
+    background-color: #c82333;
+  }
+  
