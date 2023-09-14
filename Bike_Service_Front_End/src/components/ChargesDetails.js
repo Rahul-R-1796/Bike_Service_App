@@ -6,7 +6,7 @@ import './Styles/charges-details.css';
 const ChargesDetails = () => {
   return (
     <div className="charges-details-container">
-    <h3 style="color: skyblue;">Bike Service App Charges Details:</h3>
+    <h3>Bike Service App Charges Details:</h3>
       <p>
         Charges for bike service are subject to change based on the type of work required and the specific bike model.
         The cost may vary from bike to bike.
