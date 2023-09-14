@@ -41,7 +41,7 @@ const AdminLogin = () => {
   return (
     <div>
          <div className="admin-login-container">
-      <h2>Admin Login</h2>
+      <h2 style="color: skyblue;">Admin Login</h2>
       {error && <div>{error}</div>}
       <form onSubmit={handleSubmit}>
         <div>
