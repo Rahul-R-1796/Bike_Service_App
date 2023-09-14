@@ -58,7 +58,7 @@ const BookingHistory = () => {
 
   return (
     <div className="booking-history-container">
-      <h2>Booking History</h2>
+      <h2 style="color: skyblue;">Booking History</h2>
       <table>
         <thead>
           <tr>
