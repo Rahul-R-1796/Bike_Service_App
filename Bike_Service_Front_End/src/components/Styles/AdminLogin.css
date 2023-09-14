@@ -42,7 +42,9 @@
     cursor: pointer;
     width: 100%;
   }
-  
+h2 {
+    color: #87CEEB;
+}
   .admin-login-container button[type="submit"]:hover {
     background-color: #0056b3;
   }
